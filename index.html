@@ -62,6 +62,7 @@
     padding: 10px 16px; border-radius: 9px; font-size: 15px;
   }
   .btn:hover { filter: brightness(1.1); }
+  .btn-alt { background: var(--tag); color: var(--accent); }
   .btn svg { width: 16px; height: 16px; }
   .empty { display: none; color: var(--muted); padding: 24px 0; }
   footer { margin: 40px 0 0; padding: 24px 0 48px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
@@ -77,7 +78,7 @@
   <div class="wrap">
     <div class="brand">Kinco do Brasil</div>
     <h1>Central de Downloads</h1>
-    <p>Softwares de programação e manuais para CLPs, IHMs, Servo Drives e Inversores Kinco.</p>
+    <p>Softwares de programação, catálogos e manuais para IHMs, CLPs, Servo Drives e Inversores Kinco.</p>
     <input class="search" id="q" type="search" placeholder="Buscar software ou manual…" aria-label="Buscar">
   </div>
 </header>
@@ -96,6 +97,30 @@
       <a class="btn" href="https://github.com/EvertonNishimura/KincoBrasil/releases/download/Software/DToolsPro.v1.10.5.Build260601.zip">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>Baixar</a>
     </div>
+    <div class="item" data-search="manual catalogo ihm dtp green future gl2 g2 f2 selecao">
+      <div class="info">
+        <div class="name">Guia de seleção de IHMs (DTP)</div>
+        <div class="desc">Catálogo das IHMs Kinco GREEN Série 2 (GL2/G2), FUTURE Série 2 (F2), touch capacitivo, terminais portáteis e linha especial.</div>
+        <div class="meta"><span class="tag">Manual</span><span class="tag">Inglês</span><span class="tag">09/2026</span><span class="tag">48,9 MB</span></div>
+        <div class="file">DTP_Selection_Guide-EN-20260902.pdf</div>
+      </div>
+      <a class="btn btn-alt" href="manuais/ihm/DTP_Selection_Guide-EN-20260902.pdf" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6"/></svg>Abrir PDF</a>
+    </div>
+  </section>
+
+  <section data-cat>
+    <h2>IHM + PLC</h2>
+    <div class="item" data-search="manual catalogo gk ihm plc clp integrado gk20">
+      <div class="info">
+        <div class="name">Catálogo GK Series</div>
+        <div class="desc">IHM e CLP integrados GK2070HE-42DTP e módulos de expansão GK20.</div>
+        <div class="meta"><span class="tag">Manual</span><span class="tag">Inglês</span><span class="tag">06/2026</span><span class="tag">14,6 MB</span></div>
+        <div class="file">GK_Series_catalog_EN-20260611.pdf</div>
+      </div>
+      <a class="btn btn-alt" href="manuais/ihm-plc/GK_Series_catalog_EN-20260611.pdf" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6"/></svg>Abrir PDF</a>
+    </div>
   </section>
 
   <section data-cat>
@@ -109,6 +134,16 @@
       </div>
       <a class="btn" href="https://github.com/EvertonNishimura/KincoBrasil/releases/download/Software/KincoBuilderPro-International_v4.3.0.33809.exe">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>Baixar</a>
+    </div>
+    <div class="item" data-search="manual catalogo clp plc ak840m ak841m ak84x rp20 bd20 ethercat codesys">
+      <div class="info">
+        <div class="name">Catálogo AK84X Series</div>
+        <div class="desc">Controladores de movimento AK840M/AK841M (EtherCAT, CoDeSys), módulos RP20 e placas BD20.</div>
+        <div class="meta"><span class="tag">Manual</span><span class="tag">Inglês</span><span class="tag">07/2026</span><span class="tag">6 MB</span></div>
+        <div class="file">Kinco_AK84X_Series-20260701-EN.pdf</div>
+      </div>
+      <a class="btn btn-alt" href="manuais/clp/Kinco_AK84X_Series-20260701-EN.pdf" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6"/></svg>Abrir PDF</a>
     </div>
   </section>
 
@@ -124,6 +159,26 @@
       <a class="btn" href="https://github.com/EvertonNishimura/KincoBrasil/releases/download/Software/KincoServoPro-amd64-installer.zip">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>Baixar</a>
     </div>
+    <div class="item" data-search="manual selecao servo fd6p smk motor cabo">
+      <div class="info">
+        <div class="name">Manual de seleção FD6P + SMK</div>
+        <div class="desc">Drivers FD6P (até 3 kW), motores SMK, cabos e tabela de configuração.</div>
+        <div class="meta"><span class="tag">Manual</span><span class="tag">Inglês</span><span class="tag">08/2026</span><span class="tag">7,1 MB</span></div>
+        <div class="file">FD6P_SMK_Selection_Manual-KIE22-20260812.pdf</div>
+      </div>
+      <a class="btn btn-alt" href="manuais/servo/FD6P_SMK_Selection_Manual-KIE22-20260812.pdf" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6"/></svg>Abrir PDF</a>
+    </div>
+    <div class="item" data-search="manual selecao servo fd5p pro smk profinet motor cabo">
+      <div class="info">
+        <div class="name">Manual de seleção FD5P Pro + SMK</div>
+        <div class="desc">Drivers FD5P Pro (até 7,5 kW, EtherCAT, Modbus e PROFINET), motores SMK e cabos.</div>
+        <div class="meta"><span class="tag">Manual</span><span class="tag">Inglês</span><span class="tag">08/2026</span><span class="tag">7,7 MB</span></div>
+        <div class="file">FD5P_Pro_SMK_Selection_Manual-K1E24-20260826.pdf</div>
+      </div>
+      <a class="btn btn-alt" href="manuais/servo/FD5P_Pro_SMK_Selection_Manual-K1E24-20260826.pdf" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6"/></svg>Abrir PDF</a>
+    </div>
   </section>
 
   <section data-cat>
@@ -138,13 +193,27 @@
       <a class="btn" href="https://github.com/EvertonNishimura/KincoBrasil/releases/download/Software/KCDriver0319.zip">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>Baixar</a>
     </div>
+    <div class="item" data-search="manual selecao inversor inversores kc100 vfd">
+      <div class="info">
+        <div class="name">Manual de seleção KC100</div>
+        <div class="desc">Inversores vetoriais compactos KC100 (0,4 a 5,5 kW), especificações, dimensões e acessórios.</div>
+        <div class="meta"><span class="tag">Manual</span><span class="tag">Inglês</span><span class="tag">07/2026</span><span class="tag">18,6 MB</span></div>
+        <div class="file">KC100_Series_Inverter_Selection_Manual-K1E10-20260714.pdf</div>
+      </div>
+      <a class="btn btn-alt" href="manuais/inversores/KC100_Series_Inverter_Selection_Manual-K1E10-20260714.pdf" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6"/></svg>Abrir PDF</a>
+    </div>
+    <div class="item" data-search="manual selecao inversor inversores kc200 vfd">
+      <div class="info">
+        <div class="name">Manual de seleção KC200</div>
+        <div class="desc">Inversores vetoriais KC200 (0,4 a 560 kW), especificações, dimensões, filtros, reatores e acessórios.</div>
+        <div class="meta"><span class="tag">Manual</span><span class="tag">Inglês</span><span class="tag">07/2026</span><span class="tag">8,6 MB</span></div>
+        <div class="file">KC200_Series_Inverter_Selection_Manual-K1E16-20260715.pdf</div>
+      </div>
+      <a class="btn btn-alt" href="manuais/inversores/KC200_Series_Inverter_Selection_Manual-K1E16-20260715.pdf" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6"/></svg>Abrir PDF</a>
+    </div>
   </section>
-
-  <!--
-    MANUAIS: quando subir os PDFs na pasta "manuais/" do repositório,
-    copie um bloco <section> acima e troque o link por, por exemplo:
-    href="manuais/ihm/Manual_GK.pdf"
-  -->
 
   <p class="empty" id="empty">Nenhum item encontrado.</p>
 </main>
